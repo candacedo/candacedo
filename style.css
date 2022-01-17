@@ -1,0 +1,172 @@
+
+h1 {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+h3 {
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.serif {
+    font-family: 'Open Sans'; 
+    font-weight: 600;
+
+    width: 250px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #B4353C;
+}
+
+a {
+    color: #B4353C;
+}
+
+body {
+    font-family: "Open Sans";
+    font-size: 17px;
+    font-weight: 600;
+
+    overflow-y: scroll;
+    scrollbar-width: 0; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+body::-webkit-scrollbar { /* WebKit */
+    width: 2;
+    height: 0;
+}
+
+.pictures::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.pictures {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+.text-block {
+    width: 500px;
+    margin-left: calc(50% - 250px); 
+}
+
+.text {
+    position: relative; 
+    width: 275px;
+    top: -50px;
+    left: 75px;
+
+    font-size: 20px;
+
+    background: #ffffff;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+} 
+
+#name {
+    display: flex;
+}
+
+.picture {
+    cursor: pointer;
+}
+
+.pictures {
+    position: relative; 
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-right: 300px;
+    margin-top: 5px;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    overflow: scroll;
+
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 15px;
+    }
+
+    .text-block {
+        width: 300px;
+        margin-left: calc(50% - 150px);
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .text {
+        font-size: 17px;
+    }
+
+    #name {
+        display:block !important;
+    }
+
+    .pictures {
+        padding: 50px 50px 50px 20px;
+    }
+
+    .film-image {
+        width: 90vw;
+        height: auto !important;
+    }
+}
+
+
+.link {
+    background: linear-gradient(to bottom, #00000000 60%, #4b2e8322 40%);
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+
+}
+
+/* .film-image {
+    height: 65vh;
+    align-self: center;
+} */
+
+.picture {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.text-center {
+    top: -50px;
+    left: 12.5px;
+}
+
+.text-left {
+    top: -50px;
+    left: -50px;
+}
+
