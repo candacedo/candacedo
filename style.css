@@ -101,6 +101,17 @@ body::-webkit-scrollbar { /* WebKit */
     align-items: center;
 }
 
+.portfolio {
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-right: 50px;
+    margin-top: 5px;
+    overflow: scroll;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         font-size: 15px;
