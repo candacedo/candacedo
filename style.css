@@ -25,7 +25,10 @@ p {
     font-family: "Courier Prime", sans-serif;
     font-size: 17px;
     font-weight: 400;
+
 }
+
+
 
 .serif {
     font-family: 'Courier Prime'; 
@@ -48,11 +51,25 @@ body {
     overflow-y: scroll;
     scrollbar-width: 0; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    background-color: #FFFAEF;
 }
+
 body::-webkit-scrollbar { /* WebKit */
     width: 2;
     height: 0;
 }
+
+@media screen and (prefers-color-scheme: dark) {
+    p {
+      color: #fff;
+    }
+    body {
+        background-color: #26282B;
+    }
+    .header-link {
+      color: #fff;
+    }
+  }
 
 .pictures::-webkit-scrollbar {
     display: none;
@@ -118,6 +135,7 @@ body::-webkit-scrollbar { /* WebKit */
     margin-top: 5px;
     overflow: scroll;
 }
+
 
 @media only screen and (max-width: 600px) {
     body {
