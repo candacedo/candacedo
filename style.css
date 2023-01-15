@@ -1,24 +1,34 @@
 
 h1 {
-    font-family: "Open Sans";
+    font-family: "Courier Prime";
     font-weight: 700;
     font-size: 25px;
+    color: #5887FF;
 }
 
 h2 {
-    font-family: "Open Sans";
+    font-family: "Courier Prime";
     font-weight: 700;
     font-size: 22px;
     margin-top: 50px;
+    color: #5887FF;
 }
 
 h3 {
-    font-family: "Open Sans";
+    font-family: "Courier Prime";
     font-weight: 600;
 }
 
+p {
+    line-height: 1.5;
+    color: #222222;
+    font-family: "Courier Prime", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
 .serif {
-    font-family: 'Open Sans'; 
+    font-family: 'Courier Prime'; 
     font-weight: 600;
 
     width: 250px;
@@ -26,18 +36,15 @@ h3 {
 
 .header-link {
     text-decoration: none;
-    color: #B4353C;
+    color: #222222;
 }
 
 a {
-    color: #B4353C;
+    color: #5887FF;
+    text-decoration: none;
 }
 
 body {
-    font-family: "Open Sans";
-    font-size: 17px;
-    font-weight: 600;
-
     overflow-y: scroll;
     scrollbar-width: 0; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -71,11 +78,11 @@ body::-webkit-scrollbar { /* WebKit */
 
     font-size: 20px;
 
-    background: #ffffff;
+    background: #FFFAEF;
     padding: 10px;
     border-style: solid;
     border-width: 2px;
-    border-color: black;
+    border-color: #222222;
 } 
 
 #name {
